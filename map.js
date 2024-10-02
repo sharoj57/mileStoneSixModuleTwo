@@ -32,3 +32,11 @@ const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // Aro Shortcut Version
   const outputFour = numbers.map(n => n - 10);
   console.log(outputFour);
+
+//   String diye dekha jak
+const friends = ['Love', 'Dove', 'Move', 'Pove']
+const lengthofFriends = friends.map(friend => friend.length);
+console.log(lengthofFriends);
+
+const firstLetter = friends.map(friend => friend[2], [3]);
+console.log (firstLetter);
